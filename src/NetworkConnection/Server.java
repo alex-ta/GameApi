@@ -9,16 +9,9 @@ public class Server extends Thread{
 	
 	/**
 	 * Alex's
-	 * -*Game Libary*______*~~~~~____~~~~~~~~~~~~~_______~~~~~~~~___++++++___~~~~
-	 * ~~~~~~~~~~~~##____~____~~~____~~~~~~~~~~~~____*____~~~~~~~~___~~~~___~~~~~
-	 *~~~~~~~~~~~~~~~____+____~~~____~~~~~~~~~~~____***____~~~~~~~~________~~~~~~
-	 * ~~~~~~~~~~~~~~_______~~~~~____~~~~~~~~~~_____________~~~~~~~~~____~~~~~~~~
-	 * ~~~~~~~~~~~~~~____~~~~~~~~____~~~~~~~~~_______________~~~~~~~~____~~~~~~~~
-	 * ~~~~~~~~~~~~~~____~~~~~~~~_________~~~____*********____~~~~~~~____~~~~~~~~
-	 * ~~~~~~~~~~~~~~____~~~~~~~~_________~~____***********____~~~~~~____~~~~~~~~
-	 *
-	 *Server class all servers hat a binded port an id and wait till a client is connecting,
-	 *then they make a connection an create a serverclient	 
+	 * 
+	 *Server class all servers havs a binded port an id and wait till a client is connecting,
+	 *then they make a connection and create a serverclient	 
 	 */
 	private static int serverid = 1;
 	private int id;

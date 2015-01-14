@@ -7,11 +7,16 @@ public class Main {
 	
 	public static void main (String[] args){
 		
+		/**
+		 * Window that has a background Raster
+		 * You can add Tiles and write a map (commented)
+		 * The example loads an existing map.
+		 * */
+		
 		Raster r = new Raster(500,500,10,10,Color.blue);
 		Window w = new Window("Window",r);
-		Mapper m = new Mapper();
 		// read a map that is written
-		m.readMap("firstmap.load", w);
+		Mapper.readMap("firstmap.load", w);
 		
 		/*
 		 * create a Map and write it
@@ -26,8 +31,7 @@ public class Main {
 		w.addTile(new Position(7,7),new Tile("./res/tiles/tile.png"));
 		w.addTile(new Position(8,8),new Tile("./res/tiles/tile.png"));
 		w.addTile(new Position(9,9),new Tile("./res/tiles/tile.png"));
-		Mapper mapper = new Mapper();
-		mapper.writeMap("firstmap.load", w);
+		Mapper.writeMap("firstmap.load", w);
 		*/
 		w.renderScaled();
 		w.draw();

@@ -3,7 +3,12 @@ package MAIN_EXAMPLE_SERVER;
 import NetworkConnection.NetListener;
 
 public class Connection implements NetListener{
-	/**Server example*/
+	/**
+	 * Listener Implementations which
+	 * works with the Input
+	 * from a Socketclient
+	 * */
+	
 	String tag;
 	
 	public Connection(String tag){

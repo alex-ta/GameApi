@@ -9,26 +9,16 @@ import javax.swing.JPanel;
 
 
 
+@SuppressWarnings("serial")
 public abstract class Gui extends JFrame{
 
 	/**
 	 * Alex's
-	 * -*Game Libary*______*~~~~~____~~~~~~~~~~~~~_______~~~~~~~~___++++++___~~~~
-	 * ~~~~~~~~~~~~##____~____~~~____~~~~~~~~~~~~____*____~~~~~~~~___~~~~___~~~~~
-	 *~~~~~~~~~~~~~~~____+____~~~____~~~~~~~~~~~____***____~~~~~~~~________~~~~~~
-	 * ~~~~~~~~~~~~~~_______~~~~~____~~~~~~~~~~_____________~~~~~~~~~____~~~~~~~~
-	 * ~~~~~~~~~~~~~~____~~~~~~~~____~~~~~~~~~_______________~~~~~~~~____~~~~~~~~
-	 * ~~~~~~~~~~~~~~____~~~~~~~~_________~~~____*********____~~~~~~~____~~~~~~~~
-	 * ~~~~~~~~~~~~~~____~~~~~~~~_________~~____***********____~~~~~~____~~~~~~~~
-	 *
+	 * 
 	 *This GUI class is a Frame that consists out of a number of images, called Map,
 	 *One Image is called Tile and ordered in the Way the Raster is set up.
 	 *
 	 */
-	
-	
-	
-	private static final long serialVersionUID = 1L;
 	
 	/**
 	 * width and hight are the width and hight of the Frame with border
